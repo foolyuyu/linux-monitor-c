@@ -282,9 +282,13 @@ int main(int argc, char* argv[]) {
                 }
             }
             else {
-                printf("请提供属性时间\n");
+                printf("请提供刷新时间\n");
                 return 1;
             }
+        }
+        else if(strcmp(argv[i], "-h") == 0) {
+            printf("用法: %s [-d <刷新时间>] [-h]\n", argv[0]);
+            return 0;
         }
         else {
             printf("未知参数: %s\n", argv[i]);

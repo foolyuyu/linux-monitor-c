@@ -28,7 +28,7 @@ gcc monitor.c -o monitor
 Or use Makefile:
 
 ```bash
-maks
+make
 ```
 
 ## Usage
